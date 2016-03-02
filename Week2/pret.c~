@@ -27,7 +27,7 @@ int main(void){
 	s = s0;
 	while(s > 0) {
 		float interet = ir*s;
-		s = s-r;
+		s -= r;
 		sum += interet;
 		month++;
 	}
