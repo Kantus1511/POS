@@ -3,12 +3,12 @@
 int main(void)
 {
     printf("Entez un réel : ");
-    double x;
+    double x = 0.0;
     scanf("%lf", &x);
-    if (x>=-1 && x<1){
-        printf("x appartient à I");
+    if (x>=-1.0 && x<1.0){
+        printf("x appartient à I\n");
     } else {
-        printf("x n'appartient pas à I");
+        printf("x n'appartient pas à I\n");
     }
     return 0;
 }
