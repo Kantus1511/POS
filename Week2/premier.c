@@ -10,14 +10,14 @@ int main(void) {
 		scanf("%d", &n); 
 	} while(n<=1);
 
-	if (n%2 == 0 && n!= 2){
+	if (n%2 == 0 && n!= 2){ //0== n%2 est mieux
 		d = 2;
 	}else {
-			for (int i=3; i<=sqrt(n); i+=2){
-				if (n%i == 0){
-					d = i;
-				}
+		for (int i=3; i<=sqrt(n); i+=2){
+			if (n%i == 0){
+				d = i;
 			}
+		}
 	}
 
 	if (d == 0) {

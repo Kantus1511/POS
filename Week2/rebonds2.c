@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
+const float g = 9.81;
+
 int main(void){
-	const float g = 9.81;
+
 	float h0 = 0.0;
 	float eps = 0.0;
 	float hF = 0.0;

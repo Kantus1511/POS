@@ -10,7 +10,7 @@ int main(void) {
 		scanf("%d", &n); 
 	} while(n<=1);
 
-	if (n%2 == 0 && n!= 2){
+	if (n%2 == 0 && n!= 2){ //0== n%2 est mieux
 		d = 2;
 	}else {
 			for (int i=3; i<=sqrt(n); i+=2){
@@ -21,9 +21,9 @@ int main(void) {
 	}
 
 	if (d == 0) {
-		printf("Je crois fortement que ce nombre est premier");
+		printf("Je crois fortement que ce nombre est premier\n");
 	} else {
-		printf("Le nombre n'est pas premier, car il est divisible par %d",d);
+		printf("Le nombre n'est pas premier, car il est divisible par %d\n",d);
 	}
 	return 0;
 }

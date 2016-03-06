@@ -14,12 +14,12 @@ int main(void){
 	do{
 		printf("Hauteur initiale (>= 0) \n");
 		scanf("%f", &h0);
-	} while(eps <0 || eps > 1);
+	} while(h0 < 0);
 
 	do{
 		printf("  coefficient de rebond (entre 0 et 1) \n");
 		scanf("%f", &eps);
-	} while(h0 < 0);
+	} while(eps <0 || eps > 1);
 
 	do{
 		printf("nombre de rebonds (>= 0) \n");
