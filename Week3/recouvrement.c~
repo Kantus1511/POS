@@ -1,12 +1,1 @@
-#include <stdio.h>
-
-#define DIM 10
-
-typedef char[DIM][DIM] Grille;
-
-int remplitGrille(Grille grille, size_t ligne, size_t colonne, char direction, size_t longueur);
-
-int main(void){
-    Grille grille = {DIM, char[DIM][DIM]}
-    return 0;
-}
+include <stdio.h>
